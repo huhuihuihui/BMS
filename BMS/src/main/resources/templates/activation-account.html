@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图书管理系统--账户激活</title>
+</head>
+<body>
+    <div>
+        你只需点击下列链接激活即可:<br>
+        <a th:href="@{${activationUrl}}">
+            <span th:text="${activationUrl}"></span>
+        </a>
+        <br>
+        <br>
+        感谢你的访问，祝你生活愉快！
+        <br>
+    </div>
+</body>
+</html>

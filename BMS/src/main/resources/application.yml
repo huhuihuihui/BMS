@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bms
+    username: root
+    password: 1126
+  mail:
+    host: smtp.qq.com
+    username: 3238089771@qq.com
+    password: mlpnrhxstbfychhf
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+
+
+
